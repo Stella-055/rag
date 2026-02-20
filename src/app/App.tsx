@@ -245,10 +245,7 @@ export default function App() {
   };
 
   return (<>
-    <Routes>
-        <Route path="/chat" element={<ChatMessage />} />
-       
-      </Routes>
+
     <div className=" bg-background">
       <Header isDark={isDark} onToggleTheme={() => setIsDark(!isDark)} />
 

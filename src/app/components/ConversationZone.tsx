@@ -55,7 +55,7 @@ export function ConversationZone({ messages, onSendMessage, isTyping }: Conversa
               <Bot className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h3 className="text-base font-semibold">Customer Assistant</h3>
+              <h3 className="text-base font-semibold">Merchant Assistant</h3>
               <div className="flex items-center gap-2 mt-1">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
